@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-trading-dark: #0b0e14;
+  --color-trading-panel: #131722;
+  --color-trading-border: #2a2e39;
+  --color-trading-green: #089981;
+  --color-trading-red: #f23645;
+  --color-trading-text: #d1d4dc;
+  --color-trading-text-muted: #787b86;
+  --color-brand: #00d2ff;
+}
+
+@layer base {
+  body {
+    @apply bg-trading-dark text-trading-text antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
